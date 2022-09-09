@@ -1,0 +1,228 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+@media(min-width:200px){
+	.container{
+		width:100%;
+		margin:auto;
+	}
+	.head{
+		width:100%;
+		margin:auto;
+		text-align:center;
+	}
+	.banner{
+		width:100%;
+		margin:auto;
+		/* display:flex; */
+		padding: 20px;
+		
+	}
+	.ban-content{
+		width:100%;
+		margin:auto;
+			padding-left: 30px;
+			 border: 2px solid white;
+		border-bottom-color: green;
+		background-color:#f0f5f1;
+		  border-top-color: green;
+		  margin-bottom:10px;
+	}
+	.ban-con1{
+	width:100%;
+		display:flex;
+			padding-top: 20px;
+			border: none;
+	}
+	.map{
+		margin:auto;
+		width:90%;
+			padding-top: 15px;
+	}
+	.map-con{
+		width:100%;
+		height: 220px;
+	}
+		
+	i{
+		background-color:white;
+		color:green;
+		padding: 10px;
+		border-radius: 55%;
+	 }
+	 .ico{
+			 margin-top: 15px;
+			 color:green;
+	 }
+	 .icon-con{
+		 margin-left:10px;
+	 }
+	 .form{
+		 width:100%;
+		margin:auto;
+		height:477px;
+			padding: 20px;
+				border: 2px solid white;
+		border-bottom-color: green;
+		background-color:#f0f5f1;
+		  border-top-color: green;
+	 }
+	 .form-top{
+		 width:100%;
+		margin:auto; 
+		 /* display:flex; */
+		 /* display:flex;
+		 justify-content:space-between;	  */ 
+		 padding-top:20px;
+	 }
+	 .form-cen{
+		 width:100%;
+		 margin:auto;
+		 padding-top:20px;
+	 }
+	 .form-cen input{
+		 width:100%;
+		 height: 35px;
+		     border: 1px solid #e1dddd;
+	 }
+	 .form-bot{
+		  width:100%;
+		 margin:auto;
+		 padding-top:20px;
+	 }
+	 .form-bot textarea{
+		 width:100%;
+			 padding: 30px;
+			     border: 1px solid #e1dddd;
+	 }
+	 .lab input{
+		 width: 100%;
+		/* padding-top: 20px; */
+			height: 35px;
+			padding: 0px 50px 0px 0px;
+			    border: 1px solid #e1dddd;
+				padding-top:30px;
+	 }
+	 .btn{
+		 text-align:center;
+		 padding-top: 15px;
+	 }
+	 .btn button{
+		color: white;
+		background-color: green;
+		padding: 10px;
+		border-radius: 5px;
+		border:none;
+	 }
+	}
+@media(min-width:992px){
+.container{
+	width:80%;
+	margin:auto;
+}
+.head{
+	width:100%;
+	margin:auto;
+	text-align:center;
+}
+.banner{
+	width:100%;
+	margin:auto;
+	display:flex;
+	padding: 20px;
+	
+}
+.ban-content{
+	width:48%;
+	margin:auto;
+	    padding-left: 30px;
+		 border: 2px solid white;
+    border-bottom-color: green;
+	background-color:#f0f5f1;
+	  border-top-color: green;
+}
+.ban-con1{
+	display:flex;
+	    padding-top: 20px
+}
+.map{
+	width:0%;
+	    padding-top: 15px;
+}
+.map-con{
+	width:100%;
+    height: 220px;
+}
+	
+i{
+	background-color:white;
+	color:green;
+	padding: 10px;
+    border-radius: 55%;
+ }
+ .ico{
+	     margin-top: 15px;
+		 color:green;
+ }
+ .icon-con{
+	 margin-left:10px;
+ }
+ .form{
+	 width:48%;
+	margin:auto;
+	height:434px;
+	    padding: 20px;
+		    border: 2px solid white;
+    border-bottom-color: green;
+	background-color:#f0f5f1;
+	  border-top-color: green;
+ }
+ .form-top{
+	 width:100%;
+	margin:auto;
+	 display:flex;
+	 display:flex;
+	 justify-content:space-between;	 
+	 padding-top:20px;
+ }
+ .form-cen{
+	 width:100%;
+	 margin:auto;
+	 padding-top:20px;
+ }
+ .form-cen input{
+	 width:100%;
+	 height: 35px;
+	     border: 1px solid #e1dddd;
+ }
+ .form-bot{
+	  width:100%;
+	 margin:auto;
+	 padding-top:20px;
+ }
+ .form-bot textarea{
+	 width:100%;
+	     padding: 30px;
+		     border: 1px solid #e1dddd;
+ }
+ .lab input{
+	 width: 95%;
+    /* padding-top: 20px; */
+        height: 35px;
+		padding: 0px 50px 0px 0px;
+		    border: 1px solid #e1dddd;
+ }
+ .btn{
+	 text-align:center;
+	 padding-top: 10px;
+ }
+ .btn button{
+	color: white;
+	background-color: green;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+ }
+}
