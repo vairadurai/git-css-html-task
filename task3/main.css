@@ -12,6 +12,10 @@
 		width:100%;
 		margin:auto;
 		text-align:center;
+    line-height: 30px;
+	}
+.head h2{
+		letter-spacing:3px;
 	}
 	.banner{
 		width:100%;
@@ -40,6 +44,7 @@
 		margin:auto;
 		width:90%;
 			padding-top: 15px;
+			/* margin-left: 20px; */
 	}
 	.map-con{
 		width:100%;
@@ -126,7 +131,11 @@
 	width:100%;
 	margin:auto;
 	text-align:center;
+    line-height: 30px;
 }
+.head h2{
+		letter-spacing:3px;
+	}
 .banner{
 	width:100%;
 	margin:auto;
@@ -148,8 +157,9 @@
 	    padding-top: 20px
 }
 .map{
-	width:0%;
+	width:85%;
 	    padding-top: 15px;
+		margin-left: 21px;
 }
 .map-con{
 	width:100%;

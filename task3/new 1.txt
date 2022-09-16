@@ -1,0 +1,12 @@
+
+
+
+
+	
+let a=prompt("give a number");
+
+let b=a.toString()
+	b.split('')
+    b.reverse()
+	b.join('')
+console.log(b);
